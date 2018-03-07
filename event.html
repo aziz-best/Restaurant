@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form-register.css">
+  
+</head>
+<body id="web_page">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background: #000000;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" aria-expanded="false" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-barnd"><img style="padding-top:10px;" src="img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">About</a></li>
+                    <li><a href="reserve.html">Reservation</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="#" class="login-button" data-target="#login" data-toggle="modal">Become Loyal</a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+    <div class="container">
+            <h1 style="text-align:center; margin-top: 140px; font-size: 40px;">Dining&Banqueting</h1>
+              <div class="row">
+                  <div class="col-md-6">
+                      <img id="event" src="img/event.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                      <h1>Wine Tastings</h1>
+                      <p class="event">People will turn out in droves for wine tastings. You don’t even have to close the restaurant as a special occasion; simply advertise good deals on wines during specific nights or make it easy for customers to sample multiple bottles at a discounted rate.</p>
+                  </div>
+              </div>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Live Music</h1>
+                    <p class="event" id="for_mobile">People love live bands playing music while dining at your restaurant. Even more so when it’s a local musician that they want to support. Consider booking local musicians, who are always looking for their next show, at least a couple times a week. While it’s OK to have the same band playing regularly if they bring in the customers, try to mix things up a bit every once in a while to keep things fresh.</p>
+                </div>
+                <div class="col-md-6">
+                    <img id="event" class="for_mobile" src="img/event1.jpg" alt="">
+                </div>
+            </div>
+  
+            <div class="row">
+                <div class="col-md-6">
+                    <img id="event" src="img/karaoke5.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1>Karaoke</h1>
+                    <p class="event">A lot of restaurants and bars do karaoke. Try to make this one a little more unique to stand out. Put on a karaoke competition for an hour or two once a week with the winner getting their meal paid for. Your customers will love it and the quality of singing will be a little better when a free meal is on the line.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="login" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <ul class="nav nav-tabs" id="tabContent">
+                                <li class="active"><a href="#sign-in" data-toggle="tab">Sign In</a></li>
+                                <li><a href="#sign-up" data-toggle="tab">Sign Up</a></li>
+                            </ul>
+                            <div class="modal-body">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="sign-in">
+                                        <form class="form-login" method="" action="">
+                                            <div class="form-register-with-email">
+                                                <div class="form-white-background">
+                                                        <div class="form-row">
+                                                            <label>
+                                                                <span>Email</span>
+                                                                <input type="email" name="email" placeholder="Email">
+                                                            </label>
+                                                        </div>
+
+                                                        
+                                                        <div class="form-row">
+                                                            <label>
+                                                                <span>Password</span>
+                                                                <input type="password" name="password" placeholder="Password">
+                                                            </label>
+                                                        </div>
+
+                                                        <div class="form-row">
+                                                            <button type="submit">Sign In</button>
+                                                        </div>
+                                                        <a href="#" class="form-forgotten-password">Forgotten password?</a>
+                                                </div>
+                                            </div>
+                                            <div class="or">OR</div>
+                                                <div class="container-social">
+                                                    <button class="form-google-button">Google</button>
+                                                    <button class="form-facebook-button">Facebook</button>
+                                                    <button class="form-twitter-button">Twitter</button>
+                                                </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane" id="sign-up">
+                                        <form class="form-register" method="" action="">
+                                            <div class="form-register-with-email">
+                                                <div class="form-white-background">
+                                                    <div class="form-row">
+                                                        <label>
+                                                            <span>Name</span>
+                                                            <input type="text" name="name" placeholder="Name">
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <label>
+                                                            <span>Email</span>
+                                                            <input type="email" name="email" placeholder="Email">
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <label>
+                                                            <span>Password</span>
+                                                            <input type="password" name="password" placeholder="Password">
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <label>
+                                                            <span>Confirm Password</span>
+                                                            <input type="password" name="confirm-password" placeholder="Confirm Password">
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <label class="form-checkbox">
+                                                            <input type="checkbox" name="checkbox" checked>
+                                                            <span>I agree to the <a href="#">terms and conditions</a></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <button type="submit" id="register">Register</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="or">OR</div>
+                                            <div class="container-social">
+                                                <button class="form-google-button">Google</button>
+                                                <button class="form-facebook-button">Facebook</button>
+                                                <button class="form-twitter-button">Twitter</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
+                                
+                                                        
+                 
+                                           
+                 
+                 
+                                           
+                                 
+                 
+                             
+                             
+                             
+                                            
+                                     
+                                     
+                                     
+                                     
+                 
+                                     
+                               
+                             
+                                
+                       
+        
+          
+    
+  

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Milliy Taomlar</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form-register.css">
+    <link rel="stylesheet" href="slide.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" aria-expanded="false" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-barnd"><img style="padding-top:10px;" src="img/logo.png" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">About</a></li>
+                    <li><a href="reserve.html">Reservation</a></li>
+                    <li><a href="event.html">Events</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="#" class="login-button" data-target="#login" data-toggle="modal">Become Loyal</a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+    </header>
+
+    <!---------- A C C O R D I A N ------------
+    <div class="container-fluid">
+    <div class="row">
+    <div class="accordian">
+        <ul>
+            <li>
+                <div class="image_title">
+                    <a href="#">Food</a>
+                </div>
+                <a href="#"><img src="img/slide1.jpg" alt=""></a>
+            </li>
+            <li>
+                <div class="image_title">
+                    <a href="#">Drink</a>
+                </div>
+                <a href="#"><img src="img/slide2.jpg" alt=""></a>
+            </li>
+            <li>
+                <div class="image_title">
+                    <a href="#">Desert</a>
+                </div>
+                <a href="#"><img src="img/slide3.jpg" alt=""></a>
+            </li>
+        </ul>
+    </div> 
+    </div>
+    </div>
+    <!--------- END OF ACCORDIAN SECTION ---------->
+    
+    <section id="slide-show">
+  
+      <div class="slidex activx">
+        <div class="bg1">
+          <div class="slider-center">
+            <div class="slide-text"><h2> </h2></div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="slidex">
+           <div class="bg3">
+             <div class="slider-center">
+                <div class="slide-text"><h2> </h2></div>
+             </div>
+           </div>
+     </div>
+  
+      <div class="slidex last">
+        <div class="bg4">
+          <div class="slider-center">
+              <div class="slide-text"><h2> </h2></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slideshow-nav">
+        <a href="#" class="nav-link previousx"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a href="#" class="nav-link nextx"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+  
+      <div class="arrow"><a href="#unten"><i class="glyphicon glyphicon-chevron-down"></i></a></div>
+
+</section> 
+
+<section id="unten">
+  
+  </section>
+
+
+
+
+
+    <!--------- BECOME LOYAL MODAL SECTION ---------->
+    <div id="login" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-body">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <ul class="nav nav-tabs" id="tabContent">
+                           <li class="active"><a href="#sign-in" data-toggle="tab">Sign In</a></li>
+                           <li><a href="#sign-up" data-toggle="tab">Sign Up</a></li>
+                        </ul>
+                        <div class="modal-body">
+                           <div class="tab-content">
+                               <div class="tab-pane active" id="sign-in">
+                                   <form class="form-login" method="" action="">
+         
+                                   <div class="form-register-with-email">
+         
+                                   <div class="form-white-background">
+         
+                                   <div class="form-row">
+                                       <label>
+                                           <span>Email</span>
+                                           <input type="email" name="email" placeholder="Email">
+                                       </label>
+                                   </div>
+         
+                                   <div class="form-row">
+                                       <label>
+                                           <span>Password</span>
+                                           <input type="password" name="password" placeholder="Password">
+                                       </label>
+                                   </div>
+         
+                                   <div class="form-row">
+                                        <button type="submit">Sign In</button>
+                                   </div>
+                             <a href="#" class="form-forgotten-password">Forgotten password?</a>
+                         </div>
+         
+                     </div>
+                     <div class="or">OR</div>
+                        <div class="container-social">
+                           <button class="form-google-button">Google</button>
+                           <button class="form-facebook-button">Facebook</button>
+                           <button class="form-twitter-button">Twitter</button>
+                       </div>
+                 </form>
+                </div>
+                   <div class="tab-pane" id="sign-up">
+                      <form class="form-register" method="" action="">
+         
+                          <div class="form-register-with-email">
+         
+                             <div class="form-white-background">
+                                <div class="form-row">
+                                    <label>
+                                       <span>Name</span>
+                                       <input type="text" name="name" placeholder="Name">
+                                    </label>
+                                </div>
+                             <div class="form-row">
+                                 <label>
+                                     <span>Email</span>
+                                     <input type="email" name="email" placeholder="Email">
+                                 </label>
+                             </div>
+                             <div class="form-row">
+                                 <label>
+                                     <span>Password</span>
+                                     <input type="password" name="password" placeholder="Password">
+                                 </label>
+                             </div>
+                             <div class="form-row">
+                                 <label>
+                                     <span>Confirm Password</span>
+                                     <input type="password" name="confirm-password" placeholder="Confirm Password">
+                                 </label>
+                             </div>
+                             <div class="form-row">
+                                 <label class="form-checkbox">
+                                     <input type="checkbox" name="checkbox" checked>
+                                     <span>I agree to the <a href="#">terms and conditions</a></span>
+                                 </label>
+                             </div>
+         
+                             <div class="form-row">
+                                 <button type="submit" id="register">Register</button>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="or">OR</div>
+                        <div class="container-social">
+                            <button class="form-google-button">Google</button>
+                            <button class="form-facebook-button">Facebook</button>
+                            <button class="form-twitter-button">Twitter</button>
+                        </div>
+                 </form>
+            </div>
+        </div>
+    </div>
+</div></div></div>
+  
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    
+    <script>
+        $(document).ready(function(){
+  var $prev = $('.previousx');
+  var $next = $('.nextx');
+  var mode = "auto";
+  $prev.on({
+    click: function(e){
+      e.preventDefault();
+      mode = "manual";
+      showPreviousImage();
+    }
+  });
+  $next.on({
+    click: function(e){
+      e.preventDefault();
+      mode = "manual";
+      showNextImage();
+      
+    }
+  });
+  
+  setInterval(function(){
+    if(mode==="auto"){
+      showNextImage();
+    }
+  },5000);
+  
+  function showNextImage(){
+      var $actEl = $('.activx');
+      var $nextEl = $actEl.next('.slidex');
+      if($nextEl.length){
+        $actEl.removeClass('activx');
+        $nextEl.addClass('activx');
+      }else{
+        $actEl.removeClass('activx');
+        $('.slidex:first-child').addClass('activx');
+      }
+  }
+  
+  function showPreviousImage(){
+      var $actEl = $('.activx');
+      var $prevEl = $actEl.prev('.slidex');
+      if($prevEl.length){
+        $actEl.removeClass('activx');
+        $prevEl.addClass('activx');
+      }else{
+        $actEl.removeClass('activx');
+        $('.slidex.last').addClass('activx');
+      }
+  }
+});
+
+
+$(function(){
+	var navbar = $('.navbar');
+	
+	$(window).scroll(function(){
+		if($(window).scrollTop() <= 40){
+			navbar.removeClass('navbar-scroll');
+		} else {
+			navbar.addClass('navbar-scroll');
+		}
+	});
+});
+
+
+
+    </script>
+</body>
+</html>
