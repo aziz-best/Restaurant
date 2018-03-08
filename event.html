@@ -34,38 +34,79 @@
             </div>
         </div>    
     </nav>
-    <div class="container">
-            <h1 style="text-align:center; margin-top: 140px; font-size: 40px;">Dining&Banqueting</h1>
-              <div class="row">
-                  <div class="col-md-6">
-                      <img id="event" src="img/event.jpg" alt="">
-                  </div>
-                  <div class="col-md-6">
-                      <h1>Wine Tastings</h1>
-                      <p class="event">People will turn out in droves for wine tastings. You don’t even have to close the restaurant as a special occasion; simply advertise good deals on wines during specific nights or make it easy for customers to sample multiple bottles at a discounted rate.</p>
+
+    
+    
+          
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 110px;">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/event.jpg" style="height: 450px;">
+            </div>
+      
+            <div class="item">
+              <img src="img/event1.jpg" style="height: 450px;">
+            </div>
+          
+            <div class="item">
+              <img src="img/event2.jpg" style="height: 450px;">
+            </div>
+
+            
+            <div class="item">
+              <img src="img/event3.jpg" style="height: 450px;">
+            </div>
+          </div>
+      </div>
+
+        <div class="container">
+          <h2 style="font-family: 'Raleway'; text-align:center;">MEMORABLE EVENTS</h2>
+          <hr>
+          <p id="event_text">Our events menus are created by our experienced chefs, designed to be distinctly British, deliciously seasonal and locally sourced. All food for your event is prepared and delivered fresh from our in-house kitchen. We treat every event with sincere attention, care, and craftsmanship.  Our menu choices are not produced in large batches and are not outsourced to multiple parties.  The food we make for your event will be made fresh for your event, utilizing local ingredients and seasonality</p>
+
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="thumbnail" id="thumb">
+                      <img id="event_img" src="img/event.jpg" alt="#">
+                      <div class="centered">SOCIAL EVENTS</div>
                   </div>
               </div>
-            
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>Live Music</h1>
-                    <p class="event" id="for_mobile">People love live bands playing music while dining at your restaurant. Even more so when it’s a local musician that they want to support. Consider booking local musicians, who are always looking for their next show, at least a couple times a week. While it’s OK to have the same band playing regularly if they bring in the customers, try to mix things up a bit every once in a while to keep things fresh.</p>
-                </div>
-                <div class="col-md-6">
-                    <img id="event" class="for_mobile" src="img/event1.jpg" alt="">
-                </div>
-            </div>
-  
-            <div class="row">
-                <div class="col-md-6">
-                    <img id="event" src="img/karaoke5.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h1>Karaoke</h1>
-                    <p class="event">A lot of restaurants and bars do karaoke. Try to make this one a little more unique to stand out. Put on a karaoke competition for an hour or two once a week with the winner getting their meal paid for. Your customers will love it and the quality of singing will be a little better when a free meal is on the line.</p>
-                </div>
-            </div>
+              <div class="col-md-8">
+                  <div class="thumbnail" id="thumb">
+                      <img id="event_img" src="img/event5.jpg" alt="#">
+                      <div class="centered">CORPORATE EVENTS</div>
+                  </div>
+              </div>
+
+              <div class="col-md-8">
+                  <div class="thumbnail" id="thumb">
+                       <img id="event_img" src="img/event6.jpg" alt="#" style="width: 100%;">
+                       <div class="centered">CONVENTIONS</div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="thumbnail" id="thumb">
+                       <img id="event_img" src="img/event7.jpg" alt="#">
+                       <div class="centered">WEDDINGS</div>
+                  </div>
+              </div>
+          </div>
+
+          
+
+
         </div>
+    
+    
 
         <div id="login" class="modal fade" role="dialog">
             <div class="modal-dialog">
@@ -168,6 +209,13 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         
+            <script>
+                $().ready(function(){
+                    jQuery.noConflict();
+                });
+
+                
+            </script>
     </body>
 </html>
                                 
